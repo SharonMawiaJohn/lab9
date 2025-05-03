@@ -1,4 +1,3 @@
-# lab9
 Guided Lab: Encrypting Data at Rest by Using AWS Encryption Options
 Lab overview and objectives
 In this lab, you review the default data encryption and AWS Key Management Service (AMS KMS) encryption used to encrypt data at rest. You review the default encryption of the objects stored in Amazon Simple Storage Service (Amazon S3). You create an AWS KMS key and use it to encrypt objects stored in Amazon Elastic Block Store (Amazon EBS) volumes. You also observe how AWS CloudTrail provides an audit log of AWS KMS key usage and how disabling the key affects data access. 
