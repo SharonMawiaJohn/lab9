@@ -181,6 +181,8 @@ At the bottom of the Review page, choose Finish.
 
 In this task, you created an AWS KMS key, which you use in the next task.
 
+![alt text](image-4.png)
+
 Task 3: Creating and attaching encrypted data volume on an EC2 instance
 In this task, you create an encrypted EBS volume by using the KMS key that you created in the previous task and attach it to your EC2 instance. When you attach the encrypted volume, the EC2 instance retrieves the data key from AWS KMS and uses it to decrypt the data on the EBS volume. In later tasks, you examine the CloudTrail event history to observe the calls made to the AWS KMS service.
 
@@ -251,6 +253,8 @@ The data volume (1 GiB) that you attached is encrypted and has a KMS key ID.
    Note: Observe the second diagram to understand what happens when you attach an encrypted EBS volume to the instance.
 
 In this task, you created a new encrypted data volume and attached it to the EC2 instance so that the data on it is now more secure.
+
+![alt text](image-3.png)
 
 Task 4: Disabling the encryption key and observing the effects
 In this task, you temporarily disable the AWS KMS key that you previously used to encrypt the EBS volume. You then observe the effects that disabling the key has on accessing encrypted data.
