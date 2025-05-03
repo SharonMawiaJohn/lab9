@@ -138,6 +138,8 @@ To open the image, in the Object overview section, choose the Object URL.
 
 In this task, you reviewed the encryption settings on the bucket. You then uploaded an object to the bucket and accessed the object by using a public link for the object. Amazon S3 transparently decrypted the object before displaying it in the browser.
 
+![alt text](image-2.png)
+
 Task 2: Creating an AWS KMS key
 In this task, you create a customer managed AWS KMS key. Later in the lab, you use the AWS KMS key that you create to generate, encrypt, and decrypt data keys. The data keys will be shared with Amazon EC2. The data keys are used to encrypt the actual data stored on EBS volumes.
 
