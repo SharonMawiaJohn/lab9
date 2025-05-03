@@ -35,9 +35,13 @@ An AWS KMS key to be used for encryption in the lab
 
 The following diagram shows these components.
 
+![alt text](image.png)
+
 Architecture at the beginning of the lab showing components created when the lab is started.
 
 By the end of this lab, you will have created the architecture in the following diagram. This diagram shows some of the actions that you take and the communication that occurs between Amazon EC2, Amazon EBS, AWS KMS, and CloudTrail during the lab.
+
+![alt text](image-1.png)
 
 Architecture at the end of the lab. The diagram description includes more information.
 
